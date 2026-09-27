@@ -45,7 +45,7 @@ h2::before {
   color: rgb(239, 111, 139);
 }
 
-.contents span {
+.contents p:nth-of-type(2)::first-letter {
   font-weight: bold;
   color: rgb(97, 206, 249);
 }
@@ -64,7 +64,7 @@ a {
   color: rgb(255, 255, 255);
 }
 
-a:link {
+a:visited {
   color: rgb(193, 234, 251);
 }
 
